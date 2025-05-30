@@ -13,9 +13,15 @@ class MenuActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_menu)
+
         val imageview = findViewById<ImageButton>(R.id.btn_WebView)
         imageview.setOnClickListener{
             start_activity(WebViewActivity::class.java)
+        }
+
+        val searchfilm = findViewById<ImageButton>(R.id.btn_Search)
+        searchfilm.setOnClickListener{
+            start_activity(SearchActivity::class.java)
         }
 
     }

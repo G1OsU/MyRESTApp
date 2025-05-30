@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_login)
@@ -19,6 +20,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
     }
+
     fun start_activity(activityClass: Class<*>) {
         val intent = Intent(this, activityClass)
         startActivity(intent)

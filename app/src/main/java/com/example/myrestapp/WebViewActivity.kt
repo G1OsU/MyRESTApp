@@ -16,6 +16,6 @@ class WebViewActivity : AppCompatActivity() {
         val webView = findViewById<WebView>(R.id.webViewNetflix)
         webView.webViewClient = WebViewClient()
         webView.settings.javaScriptEnabled = true
-        webView.loadUrl("https://netflix.com/it")
+        webView.loadUrl("https://netflix.com/")
     }
 }
