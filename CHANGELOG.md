@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.0] - 31/05/2025
+### Aggiunto
+- Login funzionante attraverso credenziali.
+- Aggiunta di funzione per cifrare password in MD5.
+- Aggiunto Toast per Avvenuto Login o Errato Login.
+
 ## [1.2.0] - 30/05/2025
 ### Aggiunto
 - Implementato funzionalità cerca film. crediti @amendola-scuola.
