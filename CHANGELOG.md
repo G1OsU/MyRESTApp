@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.4.0] - 03/06/2025
+### Aggiunto
+- Aggiunta Activity Dashboard, con 4 Button per metodi CRUD.
+- File Readme
+
 ## [1.3.0] - 31/05/2025
 ### Aggiunto
 - Login funzionante attraverso credenziali.

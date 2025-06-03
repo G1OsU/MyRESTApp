@@ -24,6 +24,11 @@ class MenuActivity : AppCompatActivity() {
             start_activity(SearchActivity::class.java)
         }
 
+        val dashboard = findViewById<ImageButton>(R.id.btn_Dash)
+        dashboard.setOnClickListener{
+            start_activity(DashboardActivity::class.java)
+        }
+
     }
     fun start_activity(activityClass: Class<*>) {
         val intent = Intent(this, activityClass)
